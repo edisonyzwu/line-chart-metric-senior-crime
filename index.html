@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crime Against Seniors Chart</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Rising Crime Rates Against Seniors in California</h1>
+      <h2>Homicide, rape, and assault rates among seniors have surged since 2010.</h2>
+      <select id="metric">
+        <option value="rape_rate_per_100k" selected>Rape</option>
+        <option value="homicide_rate_per_100k">Homicide</option>
+        <option value="robbery_rate_per_100k">Robbery</option>
+        <option value="assault_rate_per_100k">Assault</option>
+      </select>
+      <div id="chart">
+        <div id="tooltip">
+          <div class="number"></div>
+          <span></span>
+        </div>
+      </div>
+
+      <p class="note">"Seniors" refers to individuals aged 60 and above.</p>
+      <p class="source">
+        Chart: Edison Wu • Source: State of California Department of Justice - OpenJustice
+      </p>
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
