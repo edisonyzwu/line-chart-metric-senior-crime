@@ -77,9 +77,7 @@ select {
 .back {
   width: 100%;
   max-width: 650px;
-  margin: 50px auto;
-  padding: 0px auto;
+  margin-bottom: 50px;
   font-family: "Inter", "Avenir", system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  text-align: left;
   color: rgb(61, 61, 61);
 }
